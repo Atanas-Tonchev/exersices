@@ -1,5 +1,6 @@
-package org.example;
-import org.example.first.Valleys;
+package examples;
+import examples.first.Valleys;
+
 public class Main {
 
     public static void main(String[] args) {
