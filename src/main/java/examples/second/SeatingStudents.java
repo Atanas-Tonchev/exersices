@@ -2,36 +2,59 @@ package examples.second;
 import java.util.ArrayList;
 import java.util.List;
 public class SeatingStudents {
-    public int SeatingStudents(int[] array){
+    public int SeatingStudents(int[] array) {
         int allDesk = array[0];
-        int num = 0;
+        int count = 0;
         List<Integer> list = new ArrayList<>();
         List<Integer> list1 = new ArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
-        int sum = 0;
-            for (int j = 1; j< array.length; j++) {
-                list1.add(array[j]);
+        for (int i = 1; i < array.length; i++) {
+            list1.add(array[i]);
+        }
+        for (int j = 1; j <= allDesk; j++ ){
+            list.add(j);
+            for (Integer integer : list1){
+                list.remove(integer);
             }
-        System.out.println(list1);
-            for (int i =1; i<=allDesk;i++){
-                list.add(i);
+        }
+        for (int k = 0; k < list.size(); k++){
+            int z = list.get(k);
+            int a = 0;
+            int b = 0;
+            if(z % 2 != 0) {
+               // System.out.println("1: "+list.get(k));
+                a = z;
+            }else {
+                b = z;
+                //System.out.println("2: "+list.get(k));
             }
-        System.out.println(list);
-            for(int k =0;k<list.size();k++){
-                //System.out.println(list.get(k));
-                for (int m=0;m<list1.size();m++){
-                    list.remove(list1.get(m));
+            if (list.contains((a+2))) {
+                count++;
+            }
+            if (list.contains((b+2))) {
+                count++;
+            }
+            if(list.contains((a+1))){
+                System.out.println("aaa: "+(a+1));
+                if((a+1)>1) {
+                    //count++;
                 }
-                sum += k;
-                //System.out.println(sum);
-                if (sum >= 1) {
-                    System.out.println(sum);
-                    num++;
+            }
+            if(list.contains((b+1))){
+                System.out.println("bbb: "+(b+1));
+                if((a+1)>1) {
+                   // count++;
                 }
             }
-        System.out.println(list);
-       // System.out.println(list2);
+            /*if (list.contains() {
+                count++;
+            }*/
 
-        return num;
+            // System.out.println(b);
+            //System.out.println("3: "+sideDesk);
+        }
+
+        System.out.println(list1);
+        System.out.println(list);
+        return count;
     }
 }
