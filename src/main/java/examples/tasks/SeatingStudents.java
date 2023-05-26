@@ -1,4 +1,4 @@
-package examples.second;
+package examples.tasks;
 import java.util.ArrayList;
 import java.util.List;
 public class SeatingStudents {

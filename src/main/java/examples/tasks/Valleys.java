@@ -1,4 +1,4 @@
-package examples.first;
+package examples.tasks;
 public class Valleys {
     public int getValleys(String path,int steps){
         int count = 0;

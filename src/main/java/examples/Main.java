@@ -1,5 +1,6 @@
 package examples;
-import examples.second.SeatingStudents;
+
+import examples.tasks.SeatingStudents;
 
 public class Main {
 
