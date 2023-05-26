@@ -16,7 +16,6 @@ public class NumberOfLetter {
                 count++;
             }
         }
-        System.out.println(list);
         return count;
     }
 }
