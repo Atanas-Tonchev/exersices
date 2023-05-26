@@ -62,7 +62,7 @@
       <module name="exersices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examples.*" />
+          <option name="PATTERN" value="examples.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
