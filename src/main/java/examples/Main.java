@@ -1,11 +1,10 @@
 package examples;
-
-import examples.tasks.SeatingStudents;
+import examples.tasks.NumberOfLetter;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] array = {8, 1, 8};
-        System.out.println(new SeatingStudents().seatingStudents(array));
+        String s = "aba";
+        System.out.println(new NumberOfLetter().numberOfLetter(s,3));
     }
 }
