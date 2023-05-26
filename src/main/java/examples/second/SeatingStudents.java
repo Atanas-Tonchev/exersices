@@ -15,7 +15,7 @@ public class SeatingStudents {
                 count++;
             }
             int oneAfterAnotherDesk = j+2;
-            if(oneAfterAnotherDesk<allDesk && !occupiedDesks.contains(oneAfterAnotherDesk) && !occupiedDesks.contains(j)){
+            if(oneAfterAnotherDesk<=allDesk && !occupiedDesks.contains(oneAfterAnotherDesk) && !occupiedDesks.contains(j)){
                 count++;
             }
         }
