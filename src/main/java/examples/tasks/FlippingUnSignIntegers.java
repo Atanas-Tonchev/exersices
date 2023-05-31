@@ -2,6 +2,7 @@ package examples.tasks;
 import java.util.*;
 import java.util.stream.Collectors;
 public class FlippingUnSignIntegers {
+
     public String getUnSignIntegers(int n, Scanner scanner) {
         List<Long> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
@@ -9,6 +10,7 @@ public class FlippingUnSignIntegers {
         }
         return list.stream().map(Object::toString).collect(Collectors.joining("\n"));
     }
+
     public static long toBinaryFlip(int x) {
         StringBuilder result = new StringBuilder();
         long unsignedIntMaxValue = Integer.toUnsignedLong(Integer.parseUnsignedInt("4294967295"));
@@ -23,6 +25,7 @@ public class FlippingUnSignIntegers {
 
             return unsignedIntMaxValue;
     }
+
     public static String toBinary32Bit(long x) {
         String result = Long.toBinaryString(x);
         return String.format("%32s", result).replaceAll(" ", "0");  // 32-bit Integer
