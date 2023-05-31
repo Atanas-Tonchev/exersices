@@ -1,7 +1,7 @@
 package examples.tasks;
 import java.util.*;
 import java.util.stream.Collectors;
-public class FlipNumber32Bits {
+public class FlippingNumbers32Bits {
     public String unSignIntegers(int n, Scanner scanner) {
         List<Long> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
