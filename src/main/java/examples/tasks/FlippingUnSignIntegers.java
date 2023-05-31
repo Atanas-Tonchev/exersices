@@ -1,8 +1,8 @@
 package examples.tasks;
 import java.util.*;
 import java.util.stream.Collectors;
-public class FlippingNumbers32Bits {
-    public String unSignIntegers(int n, Scanner scanner) {
+public class FlippingUnSignIntegers {
+    public String getUnSignIntegers(int n, Scanner scanner) {
         List<Long> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             list.add(toBinaryFlip(scanner.nextInt()));
