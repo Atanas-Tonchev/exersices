@@ -19,6 +19,7 @@ public class FlippingUnSignIntegers {
             result.append((x & mask) == 0 ? 1 : 0);
         }
         if(!result.toString().equals(maxValue)) {
+
             return unsignedIntMaxValue - x;
         }
 
