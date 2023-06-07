@@ -48,13 +48,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/git/carsapp",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/git/exersices",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\git\exersices\target\classes\examples" />
+      <recent name="C:\Users\User\IdeaProjects\git\exersices\target\classes\examples\tasks" />
+      <recent name="C:\Users\User\IdeaProjects\git\exersices\target\classes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.Main" />
@@ -266,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685519859036</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2.4">
+      <created>1685522013660</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685522013660</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

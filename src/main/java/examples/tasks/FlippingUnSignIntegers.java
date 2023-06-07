@@ -24,7 +24,7 @@ public class FlippingUnSignIntegers {
             return unsignedMaxValue - x;
         }
 
-            return unsignedMaxValue;
+        return unsignedMaxValue;
     }
     public static String toBinary32Bit(long x) {
         String result = Long.toBinaryString(x);
