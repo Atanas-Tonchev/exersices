@@ -1,19 +1,29 @@
 package examples.tasks;
+
 public class Valleys {
-    public int getValleys(String path,int steps){
-        int count = 0;
-        int valleys=0;
-        for (int i = 0; i < steps; i++){
-            if((path.charAt(i)) == 'U'){
-                count += 1;
-                if (count==0){
-                    valleys+=1;
-                }
-            }else {
-                count -= 1;
+
+    public int getValleys() {
+        int start = 8;
+        String path = "UDDDUDUU";
+        int a;
+        int b;
+
+        for (int i = 0; i < path.length(); i++) {
+            int ch = path.charAt(i);
+            if (ch == 85) {
+                a = ch;
+                System.out.println("Upp " + a);
+            }
+            if (ch == 68) {
+                b = -ch;
+                System.out.println("Down " + b);
             }
         }
-        return valleys;
+        return start;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(new Valleys().getValleys());
     }
 }
-
